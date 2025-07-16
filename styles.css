@@ -1,0 +1,67 @@
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  box-sizing: border-box;
+  
+
+
+}
+body{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  align-content: center;
+}
+
+label {
+   
+ color: #333;
+ padding-right: 15px;
+ font-size: 18px;
+ font-weight: 500;
+    
+}
+.container{
+ height: 50px;
+ width: 500px;
+ background-color: #96f1d2;
+ display: flex;
+ justify-content: center;
+ margin:auto;
+ align-items: center;
+ padding: 15px;
+ border-radius: 250px;
+
+}
+#weather{
+    padding: 8px;
+    font-size: 18px;
+    color: #333;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    border: solid #777;
+    border-radius: 4px;
+
+}
+.section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 150px;
+  font-size: 18px;
+}
+#btn{
+  text-decoration: none;
+  color: #333;
+  font-weight: 700;
+ padding-left: 10px;
+ border: none;
+ background-color: transparent;
+ padding: 8px;
+ font-size: 18px;
+ cursor: pointer;
+}
+#outputText{
+  font-weight: 700;
+}
